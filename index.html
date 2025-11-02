@@ -341,6 +341,27 @@
                 font-size: 1.5rem;
             }
         }
+
+         /* Bilibili专属颜色 */
+         .social-icon.bilibili {
+            background-color: #00A1D6;
+        }
+        
+        /* 悬停效果 */
+        .social-icon:hover {
+            transform: translateY(-3px);
+        }
+        
+        .social-icon i {
+            font-size: 1.2rem;
+            margin-right: 8px;
+        }
+        
+        /* 自定义Bilibili图标样式 */
+        .icon-bilibili::before {
+            content: "\e601"; /* Bilibili图标代码 */
+        }
+        
     </style>
 </head>
 <body>
